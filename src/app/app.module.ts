@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MyComponentComponent } from './components/my-component/my-component.component';
 import { MyPipePipe } from './pipes/my-pipe.pipe';
+import { LoginComponent } from './components/login/login.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyComponentComponent,
-    MyPipePipe
+    MyPipePipe,
+    LoginComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
