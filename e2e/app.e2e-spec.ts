@@ -1,10 +1,10 @@
-import { TestRepoPage } from './app.po';
+import { Myproj5Page } from './app.po';
 
-describe('test-repo App', function() {
-  let page: TestRepoPage;
+describe('myproj5 App', function() {
+  let page: Myproj5Page;
 
   beforeEach(() => {
-    page = new TestRepoPage();
+    page = new Myproj5Page();
   });
 
   it('should display message saying app works', () => {
