@@ -8,7 +8,7 @@ import { MyComponentComponent } from './components/my-component/my-component.com
 import { MyPipePipe } from './pipes/my-pipe.pipe';
 import { LoginComponent } from './components/login/login.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { MyDirectiveDirective } from './directives/my-directive.directive';
+import { HighlightDirective } from './directives/highlight/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { MyDirectiveDirective } from './directives/my-directive.directive';
     MyPipePipe,
     LoginComponent,
     NavBarComponent,
-    MyDirectiveDirective
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
