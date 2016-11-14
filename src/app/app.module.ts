@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { MyComponentComponent } from './components/my-component/my-component.component';
 import { MyPipePipe } from './pipes/my-pipe.pipe';
 import { LoginComponent } from './components/login/login.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
@@ -13,7 +12,6 @@ import { HighlightDirective } from './directives/highlight/highlight.directive';
 @NgModule({
   declarations: [
     AppComponent,
-    MyComponentComponent,
     MyPipePipe,
     LoginComponent,
     NavBarComponent,
