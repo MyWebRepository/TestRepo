@@ -1,3 +1,8 @@
 .login-panel {
   background-color: gray;
 }
+
+input[name='userId'].ng-invalid, input[name='password'].ng-invalid {
+  background-color: yellow;
+  border: solid 1px red;
+}

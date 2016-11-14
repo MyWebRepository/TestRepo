@@ -11,7 +11,10 @@
               type="text"
               class="form-control"
               [(ngModel)]="model.userId"
-              #userId="ngModel">
+              #userId="ngModel"
+              required
+              minlength="3"
+              maxlength="10">
           </div>
         </div>
         <div class="row">
@@ -22,7 +25,10 @@
               type="password"
               class="form-control"
               [(ngModel)]="model.password"
-              #password="ngModel">
+              #password="ngModel"
+              required
+              minlength="3"
+              maxlength="10">
           </div>
         </div>
         <div class="row">
