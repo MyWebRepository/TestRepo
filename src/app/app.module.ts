@@ -8,6 +8,7 @@ import { MyPipePipe } from './pipes/my-pipe.pipe';
 import { LoginComponent } from './components/login/login.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HighlightDirective } from './directives/highlight/highlight.directive';
+import { NgModelStatusDirective } from './directives/ngModelStatus/ng-model-status.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HighlightDirective } from './directives/highlight/highlight.directive';
     MyPipePipe,
     LoginComponent,
     NavBarComponent,
-    HighlightDirective
+    HighlightDirective,
+    NgModelStatusDirective
   ],
   imports: [
     BrowserModule,
