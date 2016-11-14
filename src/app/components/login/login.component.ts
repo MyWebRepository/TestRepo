@@ -11,9 +11,17 @@ export class LoginComponent implements OnInit {
     password: ''
   };
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+  }
+
+  cancel(): void {
+    this.model = {
+      userId: '',
+      password: ''
+    };
   }
 
 }
