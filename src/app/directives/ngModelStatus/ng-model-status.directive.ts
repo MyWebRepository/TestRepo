@@ -4,7 +4,15 @@ import { Directive } from '@angular/core';
   selector: '[appNgModelStatus]'
 })
 export class NgModelStatusDirective {
+  constructor(public control:NgModel) {}
 
-  constructor() { }
+  @HostBinding('[class.valid]')
+  get valid {
+    return this.control.valid;
+  }
 
+  @HostBinding('[class.invalid]')
+  get invalid {
+    return this.control.invalid;
+  }
 }
