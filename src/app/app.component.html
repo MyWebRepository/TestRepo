@@ -4,4 +4,4 @@
 
 <app-login></app-login>
 <p appHighlight>{{"hello world" | uppercase }} {{date | date: "MM/dd/yy"}} {{"abC" | toMany: 5}}</p>
-<!--<p [appUnless]="true">Unless demo</p>-->
+<p *appUnless="false">Unless demo</p>
