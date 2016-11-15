@@ -1,10 +1,10 @@
-import { Directive } from '@angular/core';
+/*import { Directive, HostBinding } from '@angular/core';
 
 @Directive({
   selector: '[appNgModelStatus]'
 })
 export class NgModelStatusDirective {
-  constructor(public control:NgModel) {}
+  constructor(public control: NgModel) {}
 
   @HostBinding('[class.valid]')
   get valid {
@@ -15,4 +15,4 @@ export class NgModelStatusDirective {
   get invalid {
     return this.control.invalid;
   }
-}
+}*/
