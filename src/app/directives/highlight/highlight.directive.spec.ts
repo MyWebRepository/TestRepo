@@ -5,7 +5,7 @@ import { HighlightDirective } from './highlight.directive';
 
 describe('Directive: Highlight', () => {
   it('should create an instance', () => {
-    let directive = new HighlightDirective();
+    let directive = new HighlightDirective(null, null);
     expect(directive).toBeTruthy();
   });
 });
