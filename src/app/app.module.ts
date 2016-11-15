@@ -9,6 +9,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HighlightDirective } from './directives/highlight/highlight.directive';
 import { ToManyPipe } from './pipes/to-many/to-many.pipe';
 import { UnlessDirective } from './directives/unless/unless.directive';
+import { SignupComponent } from './components/signup/signup.component';
 //import { NgModelStatusDirective } from './directives/ngModelStatus/ng-model-status.directive';
 
 @NgModule({
@@ -18,7 +19,8 @@ import { UnlessDirective } from './directives/unless/unless.directive';
     NavBarComponent,
     HighlightDirective,
     ToManyPipe,
-    UnlessDirective
+    UnlessDirective,
+    SignupComponent
     //NgModelStatusDirective
   ],
   imports: [
