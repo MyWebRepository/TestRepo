@@ -10,6 +10,7 @@ import { HighlightDirective } from './directives/highlight/highlight.directive';
 import { ToManyPipe } from './pipes/to-many/to-many.pipe';
 import { UnlessDirective } from './directives/unless/unless.directive';
 import { SignupComponent } from './components/signup/signup.component';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
 //import { NgModelStatusDirective } from './directives/ngModelStatus/ng-model-status.directive';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SignupComponent } from './components/signup/signup.component';
     HighlightDirective,
     ToManyPipe,
     UnlessDirective,
-    SignupComponent
+    SignupComponent,
+    UserProfileComponent
     //NgModelStatusDirective
   ],
   imports: [
