@@ -6,10 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
+  model: any;
 
-  constructor() { }
+  constructor() {
+    this.model = {
+      userId: "",
+      password: "",
+      passwordToConfirm: ""
+    };
+  }
 
   ngOnInit() {
   }
 
+  cancel(): void {
+    this.model = {
+      userId: "",
+      password: "",
+      passwordToConfirm: ""
+    };
+  }
 }
