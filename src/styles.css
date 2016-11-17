@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .login-panel, .signup-panel {
   background-color: #ADC4CC;
-  box-shadow: 10px 10px 60px -9px rgba(0,0,0,0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 input[name='userId'].ng-invalid, input[name='password'].ng-invalid, input[name='passwordToConfirm'].ng-invalid {
