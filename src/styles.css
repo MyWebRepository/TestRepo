@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 .login-panel, .signup-panel {
-  background-color: gray;
+  background-color: #ADC4CC;
 }
 
 input[name='userId'].ng-invalid, input[name='password'].ng-invalid, input[name='passwordToConfirm'].ng-invalid {
-  background-color: yellow;
+  background-color: #F0E193;
   border: solid 1px red;
 }
 
