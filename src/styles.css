@@ -4,6 +4,11 @@
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+.login-panel .text-right, .signup-panel .text-right {
+  line-height: 28px;
+  color: blue;
+}
+
 input[name='userId'].ng-invalid, input[name='password'].ng-invalid, input[name='passwordToConfirm'].ng-invalid {
   background-color: #F0E193;
   border: solid 1px red;
