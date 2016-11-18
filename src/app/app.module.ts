@@ -11,7 +11,7 @@ import { ToManyPipe } from './pipes/to-many/to-many.pipe';
 import { UnlessDirective } from './directives/unless/unless.directive';
 import { SignupComponent } from './components/signup/signup.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
-//import { NgModelStatusDirective } from './directives/ngModelStatus/ng-model-status.directive';
+//import { ConfigService } from 'configs/config.service';
 
 @NgModule({
   declarations: [
@@ -22,15 +22,15 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
     ToManyPipe,
     UnlessDirective,
     SignupComponent,
-    UserProfileComponent
-    //NgModelStatusDirective
+    UserProfileComponent,
+    //ConfigService
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [], //[ConfigService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
