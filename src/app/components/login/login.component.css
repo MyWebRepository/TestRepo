@@ -1,0 +1,7 @@
+form[name='login-form'] .login-panel {
+  padding-bottom: 15px;
+}
+
+form[name='login-form'] .row {
+  padding-top: 15px;
+}
