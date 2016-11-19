@@ -13,6 +13,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { ConfigService } from './configs/config.service';
 import { UserListComponent } from './components/user-list/user-list.component';
+import { UserDataService } from './services/user-data/user-data.service';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { UserListComponent } from './components/user-list/user-list.component';
     FormsModule,
     HttpModule
   ],
-  providers: [ConfigService],
+  providers: [ConfigService, UserDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
