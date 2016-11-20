@@ -6,14 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { HighlightDirective } from './directives/highlight/highlight.directive';
-import { ToManyPipe } from './pipes/to-many/to-many.pipe';
-import { UnlessDirective } from './directives/unless/unless.directive';
 import { SignupComponent } from './components/signup/signup.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
-import { ConfigService } from './configs/config.service';
 import { UserListComponent } from './components/user-list/user-list.component';
+import { HighlightDirective } from './directives/highlight/highlight.directive';
+import { UnlessDirective } from './directives/unless/unless.directive';
+import { ConfigService } from './configs/config.service';
 import { UserDataService } from './services/user-data/user-data.service';
+import { ToManyPipe } from './pipes/to-many/to-many.pipe';
 
 @NgModule({
   declarations: [
