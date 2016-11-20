@@ -11,6 +11,7 @@ export class UserDataService {
   }
 
   getUsers(): any {
+    debugger;
     return this.http.get(this.config.getServiceUrl('user') + '/listUsers')
       .map(response => response.json());
   }
