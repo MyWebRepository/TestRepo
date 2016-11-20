@@ -10,12 +10,10 @@ export class UserListComponent implements OnInit {
   users: any;
 
   constructor(private userData: UserDataService) {
-    debugger;
     this.users = this.userData.getUsers();
   }
 
   ngOnInit() {
   }
-
 
 }
