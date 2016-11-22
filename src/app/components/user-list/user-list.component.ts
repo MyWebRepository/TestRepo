@@ -12,6 +12,7 @@ import 'rxjs/add/operator/map';
 //import 'rxjs/add/operator/toPromise';
 
 import { UserDataService } from '../../services/user-data/user-data.service';
+import { User } from '../../classes/models/User';
 
 @Component({
   selector: 'app-user-list',
@@ -19,7 +20,7 @@ import { UserDataService } from '../../services/user-data/user-data.service';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
-  users: any[];
+  users: User[];
 
   constructor(private userData: UserDataService) {
     this.users = [];
