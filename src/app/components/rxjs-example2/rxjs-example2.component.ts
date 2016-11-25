@@ -7,8 +7,8 @@ import {Observable} from 'rxjs/Rx';
   styleUrls: ['./rxjs-example2.component.css']
 })
 export class RxjsExample2Component implements OnInit {
-  ticks = 0;
-  syncResults = [];
+  private ticks: number = 0;
+  private syncResults: any[] = [];
 
   constructor() { }
 
@@ -20,7 +20,6 @@ export class RxjsExample2Component implements OnInit {
     let second = Observable.of({source:2,value:1});
     Observable.forkJoin(first,second)
       .subscribe(res => this.syncResults = res);
-
   }
 
 }
