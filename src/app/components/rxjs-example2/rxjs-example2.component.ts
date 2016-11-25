@@ -19,7 +19,7 @@ export class RxjsExample2Component implements OnInit {
     let first = Observable.of({source:1,value:1});
     let second = Observable.of({source:2,value:1});
     Observable.forkJoin(first,second)
-      .subscribe(res => this.syncResults = res);
+      .subscribe((res: any) => this.syncResults = res);
   }
 
 }
