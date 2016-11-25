@@ -14,6 +14,7 @@ import { UnlessDirective } from './directives/unless/unless.directive';
 import { ConfigService } from './configs/config.service';
 import { UserDataService } from './services/user-data/user-data.service';
 import { ToManyPipe } from './pipes/to-many/to-many.pipe';
+import { RxjsExampleComponent } from './components/rxjs-example/rxjs-example.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ToManyPipe } from './pipes/to-many/to-many.pipe';
     UnlessDirective,
     SignupComponent,
     UserProfileComponent,
-    UserListComponent
+    UserListComponent,
+    RxjsExampleComponent
   ],
   imports: [
     BrowserModule,
