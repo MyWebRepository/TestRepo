@@ -1,3 +1,4 @@
+/*
 import {Component, OnInit} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 
@@ -19,25 +20,24 @@ export class RxjsExampleComponent implements OnInit {
   }
 
   init() {
-    this.data = new Observable(observer => {
-      setTimeout(() => {
-        observer.next(42);
-      }, 1000);
+    //this.data = new Observable(observer => {
+    //  setTimeout(() => {
+     //   observer.next(42);
+    //  }, 1000);
 
-      setTimeout(() => {
-        observer.next(43);
-      }, 2000);
+    //  setTimeout(() => {
+    //    observer.next(43);
+    //  }, 2000);
 
-      setTimeout(() => {
-        observer.complete();
-      }, 3000);
-    });
+    //  setTimeout(() => {
+    //    observer.complete();
+    //  }, 3000);
+    //});
 
-    let subscription = this.data.subscribe(
-      value => this.values.push(value),
-      error => this.anyErrors = true,
-      () => this.finished = true
-    );
+    //let subscription = this.data.subscribe(
+    //  value => this.values.push(value),
+    //  error => this.anyErrors = true,
+    //  () => this.finished = true
   }
 
-}
+}*/
