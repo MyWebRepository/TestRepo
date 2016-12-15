@@ -17,6 +17,8 @@ import { ToManyPipe } from './pipes/to-many/to-many.pipe';
 //import { RxjsExampleComponent } from './components/rxjs-example/rxjs-example.component';
 import { RxjsExample2Component } from './components/rxjs-example2/rxjs-example2.component';
 import { InputExampleComponent } from './components/input-example/input-example.component';
+import { OutputExampleComponent } from './components/output-example/output-example.component';
+import { OutputExampleContainerComponent } from './components/output-example/output-example-container.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { InputExampleComponent } from './components/input-example/input-example.
     UserListComponent,
     //RxjsExampleComponent,
     RxjsExample2Component,
-    InputExampleComponent
+    InputExampleComponent,
+    OutputExampleComponent,
+    OutputExampleContainerComponent
   ],
   imports: [
     BrowserModule,
