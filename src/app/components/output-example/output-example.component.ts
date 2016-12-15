@@ -9,6 +9,8 @@ export class OutputExampleComponent implements OnInit {
   @Input() count = 0;
   @Output() countChange = new EventEmitter<number>();
 
+  info: string = "used in outsider";
+
   constructor() { }
 
   ngOnInit() {
