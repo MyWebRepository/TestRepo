@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { ProjectionExampleModule } from "./components/projection-example/projection-example.module"
+
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
@@ -40,7 +42,8 @@ import { OutputExampleContainerComponent } from './components/output-example/out
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    ProjectionExampleModule
   ],
   providers: [ConfigService, UserDataService],
   bootstrap: [AppComponent]
