@@ -1,0 +1,8 @@
+<h5>Lifecycle Events Log</h5>
+{{ logs.join(', ') }}
+<ul>
+  <li *ngFor="let log of logs">
+    <code>{{ log }}</code>
+  </li>
+</ul>
+<app-lifecycle-example *ngIf="showChild" [name]="name" (log)="onLog($event)"></app-lifecycle-example>

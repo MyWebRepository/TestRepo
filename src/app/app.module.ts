@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { ProjectionExampleModule } from "./components/projection-example/projection-example.module"
+import { ProjectionExampleModule } from './components/projection-example/projection-example.module';
+import { LifecycleExampleModule } from './components/lifecycle-example/lifecycle-example.module';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
@@ -43,7 +44,8 @@ import { OutputExampleContainerComponent } from './components/output-example/out
     BrowserModule,
     FormsModule,
     HttpModule,
-    ProjectionExampleModule
+    ProjectionExampleModule,
+    LifecycleExampleModule
   ],
   providers: [ConfigService, UserDataService],
   bootstrap: [AppComponent]

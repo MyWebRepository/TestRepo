@@ -9,6 +9,8 @@ import { ProjectionExampleComponent } from './projection-example.component';
   exports: [
     ProjectionExampleComponent
   ],
-  declarations: [ProjectionExampleComponent]
+  declarations: [
+    ProjectionExampleComponent
+  ]
 })
 export class ProjectionExampleModule { }
