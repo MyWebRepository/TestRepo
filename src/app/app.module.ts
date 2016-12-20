@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { ProjectionExampleModule } from './components/projection-example/projection-example.module';
 import { LifecycleExampleModule } from './components/lifecycle-example/lifecycle-example.module';
+import { RouteExampleModule } from './components/route-example/route-example.module';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
@@ -22,6 +23,9 @@ import { RxjsExample2Component } from './components/rxjs-example2/rxjs-example2.
 import { InputExampleComponent } from './components/input-example/input-example.component';
 import { OutputExampleComponent } from './components/output-example/output-example.component';
 import { OutputExampleContainerComponent } from './components/output-example/output-example-container.component';
+//import { RouteExample2Component } from './components/route-example/route-example2.component';
+//import { RouteExampleContainerComponent } from './components/route-example/route-example-container.component';
+
 
 @NgModule({
   declarations: [
@@ -38,14 +42,17 @@ import { OutputExampleContainerComponent } from './components/output-example/out
     RxjsExample2Component,
     InputExampleComponent,
     OutputExampleComponent,
-    OutputExampleContainerComponent
+    OutputExampleContainerComponent,
+    //RouteExample2Component,
+    //RouteExampleContainerComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     ProjectionExampleModule,
-    LifecycleExampleModule
+    LifecycleExampleModule,
+    RouteExampleModule
   ],
   providers: [ConfigService, UserDataService],
   bootstrap: [AppComponent]
