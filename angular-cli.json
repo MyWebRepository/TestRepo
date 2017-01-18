@@ -1,7 +1,7 @@
 {
   "project": {
-    "version": "1.0.0-beta.21",
-    "name": "temp-web"
+    "version": "1.0.0-beta.25.5",
+    "name": "my-web-proj"
   },
   "apps": [
     {
