@@ -14,6 +14,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { HighlightDirective } from './directives/highlight/highlight.directive';
+import { BackgroundDirective } from './directives/background/background.directive';
 import { UnlessDirective } from './directives/unless/unless.directive';
 import { ConfigService } from './configs/config.service';
 import { UserDataService } from './services/user-data/user-data.service';
@@ -33,6 +34,7 @@ import { OutputExampleContainerComponent } from './components/output-example/out
     LoginComponent,
     NavBarComponent,
     HighlightDirective,
+    BackgroundDirective,
     ToManyPipe,
     UnlessDirective,
     SignupComponent,
